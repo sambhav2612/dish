@@ -1,49 +1,57 @@
-<!doctype html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title>reveal.js</title>
-
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
-
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					This project is under the <i>Open Innovation</i> theme:
+					<br><br>
+					Streaming and curating content for DishTV online using Blockchain and Gender Analysis
+				</section>
+				<section>
+					<i>Brief Intro</i>
+					<br><br>
+					At a glance, this project is just a lame PWA filled with whip cream and topped with chocolate and sprinkles.
+					The DishTV users can create their accounts on the portal to find curated content based
+					 on their Gender (obviously, after taking consent ;)
+				</section>
+				<section>
+					 And, apart from providing curated content based on gender (and age), users can stream the "things" 
+					 in real-time. Plus, we are putting every user's credential hash on a central blockchain for 
+					 security purposes.
+				</section>
+				<section>
+					<i>So, how does it work?</i>
+					<br><br>
+					<ul>
+						<li>End-user comes on the portal and initiates account creation.</li>
+						<li>A channel package is selected and compliance for using our curated content is duly noted.</li>
+						<li>User credentials are hashed together on a central blockchain for security (and sales growth) purposes.</li>
+						<li>Appropraite services are served depending on the previous choices made.</li>
+					</ul>
+				</section>
+				<section>
+					<i>Why?</i>
+					<br><br>
+					This is for you, if:
+					<ul>
+						<li>you want curated content on-demand.</li>
+						<li>you like gap-free entertainment.</li>
+						<li>you are a homo-sapien.</li>
+						<li>and, obviously, if you love DishTV.</li>
+					</ul>
+				</section>
+				<section>
+					Made by <i>Team Coding Junkies</i>
+				</section>
 			</div>
 		</div>
-
-		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
-
 		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
+			Reveal.initialize();
 		</script>
 	</body>
 </html>
